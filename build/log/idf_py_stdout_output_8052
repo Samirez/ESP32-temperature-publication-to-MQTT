@@ -1,0 +1,42 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\Ahmadullah\esp\Portfolio_temp_publication\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.0.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/Ahmadullah/esp/Portfolio_temp_publication/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/sampling_temperature.c.obj
+In file included from C:/Users/Ahmadullah/esp/Portfolio_temp_publication/main/sampling_temperature.c:29:
+C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_adc/deprecated/include/esp_adc_cal.h:17:2: warning: #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h" [-Wcpp]
+   17 | #warning "legacy adc calibration driver is deprecated, please migrate to use esp_adc/adc_cali.h and esp_adc/adc_cali_scheme.h"
+      |  ^~~~~~~
+In file included from C:/Users/Ahmadullah/esp/Portfolio_temp_publication/main/sampling_temperature.c:30:
+C:/Espressif/frameworks/esp-idf-v5.0.1/components/driver/deprecated/driver/adc.h:19:2: warning: #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively" [-Wcpp]
+   19 | #warning "legacy adc driver is deprecated, please migrate to use esp_adc/adc_oneshot.h and esp_adc/adc_continuous.h for oneshot mode and continuous mode drivers respectively"
+      |  ^~~~~~~
+C:/Users/Ahmadullah/esp/Portfolio_temp_publication/main/sampling_temperature.c: In function 'wifi_init':
+C:/Users/Ahmadullah/esp/Portfolio_temp_publication/main/sampling_temperature.c:142:62: warning: passing argument 3 of 'esp_event_handler_register' from incompatible pointer type [-Wincompatible-pointer-types]
+  142 |     esp_event_handler_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &wifi_event_handler, NULL);
+      |                                                              ^~~~~~~~~~~~~~~~~~~
+      |                                                              |
+      |                                                              esp_err_t (*)(void *, const char *, int32_t,  void *) {aka int (*)(void *, const char *, long int,  void *)}
+In file included from C:/Users/Ahmadullah/esp/Portfolio_temp_publication/main/sampling_temperature.c:8:
+C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_event/include/esp_event.h:141:58: note: expected 'esp_event_handler_t' {aka 'void (*)(void *, const char *, long int,  void *)'} but argument is of type 'esp_err_t (*)(void *, const char *, int32_t,  void *)' {aka 'int (*)(void *, const char *, long int,  void *)'}
+  141 |                                      esp_event_handler_t event_handler,
+      |                                      ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+C:/Users/Ahmadullah/esp/Portfolio_temp_publication/main/sampling_temperature.c:143:63: warning: passing argument 3 of 'esp_event_handler_register' from incompatible pointer type [-Wincompatible-pointer-types]
+  143 |     esp_event_handler_register(IP_EVENT, IP_EVENT_STA_GOT_IP, &wifi_event_handler, NULL);
+      |                                                               ^~~~~~~~~~~~~~~~~~~
+      |                                                               |
+      |                                                               esp_err_t (*)(void *, const char *, int32_t,  void *) {aka int (*)(void *, const char *, long int,  void *)}
+In file included from C:/Users/Ahmadullah/esp/Portfolio_temp_publication/main/sampling_temperature.c:8:
+C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_event/include/esp_event.h:141:58: note: expected 'esp_event_handler_t' {aka 'void (*)(void *, const char *, long int,  void *)'} but argument is of type 'esp_err_t (*)(void *, const char *, int32_t,  void *)' {aka 'int (*)(void *, const char *, long int,  void *)'}
+  141 |                                      esp_event_handler_t event_handler,
+      |                                      ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[3/7] Linking C static library esp-idf\main\libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable Portfolio_temp_publication.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.5
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/Ahmadullah/esp/Portfolio_temp_publication/build/Portfolio_temp_publication.bin
+[7/7] cmd.exe /C "cd /D C:\Users\Ahmadullah\esp\Portfolio_temp_publication\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.0.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/Ahmadullah/esp/Portfolio_temp_publication/build/partition_table/partition-table.bin C:/Users/Ahmadullah/esp/Portfolio_temp_publication/build/Portfolio_temp_publication.bin"
+Portfolio_temp_publication.bin binary size 0xd5770 bytes. Smallest app partition is 0x100000 bytes. 0x2a890 bytes (17%) free.

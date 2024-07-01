@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="731c875c-a4fb-48c9-9f32-867ba44c55b2" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.3" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2MxlrkwKue0a0GzdcWCJVCc0qdb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ahmadullah/esp/Portfolio_temp_publication&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="731c875c-a4fb-48c9-9f32-867ba44c55b2" name="Changes" comment="" />
+      <created>1678717314712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678717314712</updated>
+      <workItem from="1678717316128" duration="11411000" />
+      <workItem from="1679692046460" duration="35000" />
+      <workItem from="1681737150935" duration="610000" />
+      <workItem from="1681997830078" duration="9515000" />
+      <workItem from="1682238400190" duration="10317000" />
+      <workItem from="1682335537091" duration="6604000" />
+      <workItem from="1682611044476" duration="318000" />
+      <workItem from="1682940524869" duration="917000" />
+      <workItem from="1682942597265" duration="595000" />
+      <workItem from="1683297440314" duration="4899000" />
+      <workItem from="1683302809041" duration="612000" />
+      <workItem from="1688138073689" duration="3361000" />
+      <workItem from="1688213540567" duration="5903000" />
+      <workItem from="1688219521285" duration="418000" />
+      <workItem from="1688224228452" duration="833000" />
+      <workItem from="1688320947584" duration="3076000" />
+      <workItem from="1688452710074" duration="343000" />
+      <workItem from="1688470651052" duration="3903000" />
+      <workItem from="1709470887701" duration="324000" />
+      <workItem from="1711203294826" duration="4693000" />
+      <workItem from="1711210901063" duration="3641000" />
+      <workItem from="1713180146732" duration="482000" />
+      <workItem from="1714300588145" duration="231000" />
+      <workItem from="1714300838215" duration="28000" />
+      <workItem from="1714388745465" duration="435000" />
+      <workItem from="1714410011273" duration="2155000" />
+      <workItem from="1714912079122" duration="875000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>

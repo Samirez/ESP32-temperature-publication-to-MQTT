@@ -1,0 +1,53 @@
+menu "Temperature sampling Configuration"
+
+    config FREQUENCY # 2
+        int "Frequency"
+        default 868100000 # standard frequency for Europe
+        help
+            Frequency in Hz to send data to the server.
+            
+   config PERIOD
+       int "Period"
+       default 10000
+       help
+           Sample period in milliseconds to send data to the server.
+
+   config WIFI_SSID
+       string "WiFi SSID"
+       default "wifi_ssid"
+       help
+           SSID (network name) for the example to connect to.
+
+   config WIFI_PASSWORD
+       string "WiFi Password"
+       default "wifi_pass"
+       help
+           WiFi password (WPA or WPA2) for the example to use.
+
+   config MQTT_BROKER
+       string "MQTT Broker"
+       default "mqtt://broker.emqx.io:1883"
+       #default "mqtt://127.0.0.1:1883"
+       #default "mqtt://192.168.87.192:1883"
+       help
+           MQTT broker to connect to.
+
+   config MQTT_COMMAND_TOPIC
+       string "MQTT command topic"
+       default "ahnai17/command"
+       help
+            MQTT command topic to send commands
+
+   config MQTT_RESPONSE_TOPIC
+       string "MQTT response topic"
+       default "ahnai17/response"
+       help
+            MQTT response topic receiving sensor readings from command
+
+   config ESP_MAXIMUM_RETRY
+       int "Maximum retry"
+       default 5
+       help
+           Set the Maximum retry to avoid station reconnecting to the AP unlimited when the AP is really inexistent.
+
+endmenu
