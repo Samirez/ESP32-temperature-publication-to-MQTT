@@ -27,8 +27,6 @@ menu "Temperature sampling Configuration"
    config MQTT_BROKER
        string "MQTT Broker"
        default "mqtt://broker.emqx.io:1883"
-       #default "mqtt://127.0.0.1:1883"
-       #default "mqtt://192.168.87.192:1883"
        help
            MQTT broker to connect to.
 
